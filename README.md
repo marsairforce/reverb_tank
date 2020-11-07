@@ -26,6 +26,8 @@ I find it curious, that when doing a google search I found several foreign websi
 
 This makes me question, why?  Because before doing research into this I was thinking about using a 386 audio amplifier IC here. My theory is that it was not able to produce a good quality drive to the reverb tank. Or that the output was somewhat noisy.  Or was it just some amp design used the 386 and threatened to sue him for copyright?
 
+Spend an evening capturing the schematic. And the power supply (see below)
+
 ## Tube Driver
 
 I find myself again back on [The Valve Wizard](http://www.valvewizard.co.uk/reverbdriver.html) site. The discussion there is about how the using the EL84 as a driving tube is overkill and waste. Sure. But it does work.And I simply love the sound of it.
@@ -42,4 +44,6 @@ The first challenge for either approach is I yet again need to build another pow
 
 If I do tubes, I need the 350V DC and the 6.3V filament supply.
 
-If I do op-amps I need +/-15V. probably the current from the op-amp power supply project. So I can just reuse the same transformer, capacitors and a different regulator.
+If I do op-amps I need +/-15V. probably the current from the op-amp power supply project. So I can just reuse the same transformer, capacitors and a different regulator. I have a feeling this is going to be more practical. In that it is going to cost less to build, will operate with less need for cooling (e.g. in an audio rack) and have a better chance of fitting into a 1U rack chassis.
+
+So I think I'll just build the op-amp based driver.
