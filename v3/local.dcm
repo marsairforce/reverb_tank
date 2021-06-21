@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RAC20-15DK
+D 20W Dual Output EMC Class B +/-15V 450mA
+K ac dc power supply
+F https://recom-power.com/en/products/ac-dc-power-supplies/rec-s-RAC20-K.html
+$ENDCMP
+#
+#End Doc Library
